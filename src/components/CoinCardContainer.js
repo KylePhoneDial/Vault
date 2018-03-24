@@ -18,4 +18,4 @@ function mapStateToProps(state) {
   };
 }
 
-export default connect(mapStateToProps)(CryptoCardContainer);
+export default connect(mapStateToProps)(CoinCardContainer);

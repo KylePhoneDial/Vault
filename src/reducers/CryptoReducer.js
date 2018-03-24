@@ -1,7 +1,7 @@
 import {
   FETCHING_COIN_DATA,
-  FETCHING_COIN_FAIL,
-  FETCHING_COIN_SUCCESS
+  FETCHING_COIN_DATA_FAIL,
+  FETCHING_COIN_DATA_SUCCESS
 } from "./../utils/ActionTypes";
 
 const initialState = {

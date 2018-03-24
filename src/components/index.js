@@ -1,3 +1,3 @@
-import CryptoCardContainer from "./CryptoCardContainer";
+import CoinCardContainer from "./CoinCardContainer";
 
-export { CryptoCardContainer };
+export { CoinCardContainer };
