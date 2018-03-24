@@ -2,6 +2,11 @@
   "name": "vault-app",
   "version": "0.1.0",
   "private": true,
+  "rnpm" : {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
   "devDependencies": {
     "jest-expo": "25.0.0",
     "react-native-scripts": "1.11.1",
