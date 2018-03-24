@@ -5,9 +5,9 @@ import logger from 'redux-logger';
 import devTools from 'remote-redux-devtools';
 import { Platform } from 'react-native';
 
-import RootReducer from './Reducers';
+import RootReducer from './reducers';
 
-const middleWare = applyMiddleware(thunk, promise, logger);
+const middleware = applyMiddleware(thunk, promise, logger);
 
 const Store = createStore(
     RootReducer,
